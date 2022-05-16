@@ -1,0 +1,200 @@
+{
+  "contacts": [
+    {
+      "id": "c9a9deff-1b1a-4cb7-b8ce-5bcd2a9318ac",
+      "name": "Gan Cosbey",
+      "company": "Wikivu",
+      "email": "gcosbey0@reverbnation.com",
+      "title": "Marketing Manager",
+      "mobile": "0603 354 4385",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219990.png",
+      "groupId": "6"
+    },
+    {
+      "id": "cbf24fd8-0e99-426e-9654-f88f42e9dc76",
+      "name": "Sherman Milliken",
+      "company": "Einti",
+      "email": "smilliken1@jimdo.com",
+      "title": "Librarian",
+      "mobile": "0599 172 3603",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219985.png",
+      "groupId": 1
+    },
+    {
+      "id": "a62a6c8a-4ada-42a7-a668-868cd9478c09",
+      "name": "Micah Wisbey",
+      "company": "Demimbu",
+      "email": "mwisbey2@nytimes.com",
+      "title": "Accountant III",
+      "mobile": "0637 120 4335",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219979.png",
+      "groupId": 6
+    },
+    {
+      "id": "c979ea82-b318-4f7b-b4ca-85d6add8978e",
+      "name": "Gnni Caville",
+      "company": "Innojam",
+      "email": "gcaville3@hao123.com",
+      "title": "Web Designer I",
+      "mobile": "0357 396 8889",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219987.png",
+      "groupId": 1
+    },
+    {
+      "id": "7f81aeeb-9e61-4452-874c-d959bf7a6c24",
+      "name": "Elsi Segot",
+      "company": "Thoughtmix",
+      "email": "esegot4@wikispaces.com",
+      "title": "Senior Developer",
+      "mobile": "0327 945 5964",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219989.png",
+      "groupId": 6
+    },
+    {
+      "id": "f34f87ef-e375-40a2-8f18-ade2b4bd1f32",
+      "name": "Ambros Piddle",
+      "company": "Gabtune",
+      "email": "apiddle5@dell.com",
+      "title": "Junior Executive",
+      "mobile": "0377 840 6314",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219984.png",
+      "groupId": 3
+    },
+    {
+      "id": "4e640bdb-6218-48f1-ae6a-923d6deab1fb",
+      "name": "Godard Hanton",
+      "company": "Skipstorm",
+      "email": "ghanton6@amazon.de",
+      "title": "Data Coordiator",
+      "mobile": "0798 153 3640",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219981.png",
+      "groupId": 6
+    },
+    {
+      "id": "e07ab108-f2c3-4b9b-9aea-7c7a4b6bdab6",
+      "name": "Walker Couronne",
+      "company": "Zazio",
+      "email": "wcouronne7@bravesites.com",
+      "title": "Research Assistant I",
+      "mobile": "0491 354 0273",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219980.png",
+      "groupId": 1
+    },
+    {
+      "id": "f2082599-553c-4bd4-bc5b-879782230898",
+      "name": "Dot O'Cleary",
+      "company": "Katz",
+      "email": "docleary8@bbc.co.uk",
+      "title": "Recruiting Manager",
+      "mobile": "0461 476 6823",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219986.png",
+      "groupId": 1
+    },
+    {
+      "id": "2cbd471b-f66a-45b4-a413-a0e3c6db47df",
+      "name": "Ogdan Dumelow",
+      "company": "Centizu",
+      "email": "odumelow9@who.int",
+      "title": "Quality Control Specialist",
+      "mobile": "0417 451 0782",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219983.png",
+      "groupId": 4
+    },
+    {
+      "id": "bace396e-eeb8-4551-9d32-2ba129ac81cc",
+      "name": "Chancey Foord",
+      "company": "Shufflebeat",
+      "email": "cfoord0@usgs.gov",
+      "title": "Research Nurse",
+      "mobile": "563 124 8282",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219982.png",
+      "groupId": 4
+    },
+    {
+      "id": "ac115401-35b0-4457-9520-409bfb047b60",
+      "name": "Sean Chanson",
+      "company": "Agimba",
+      "email": "schanson1@sogou.com",
+      "title": "Statistician IV",
+      "mobile": "938 512 4648",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219988.png",
+      "groupId": 4
+    },
+    {
+      "id": "ac115401-3213-4457-a37f-409bfb047b60",
+      "name": "Seana Chanson",
+      "company": "Agimba",
+      "email": "schanson1@sogou.com",
+      "title": "Statistician IV",
+      "mobile": "938 512 4648",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219988.png",
+      "groupId": 4
+    },
+    {
+      "id": "ac198401-35b0-4457-a37f-409bfb047b60",
+      "name": "Seana Chanson",
+      "company": "Agimba",
+      "email": "schanson1@sogou.com",
+      "title": "Statistician IV",
+      "mobile": "938 512 4648",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219988.png",
+      "groupId": 4
+    },
+    {
+      "id": "ac115401-35b0-4457-a37f-409b67047b60",
+      "name": "Seana Chanson",
+      "company": "Agimba",
+      "email": "schanson1@sogou.com",
+      "title": "Statistician IV",
+      "mobile": "938 512 4648",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219988.png",
+      "groupId": 4
+    },
+    {
+      "id": "ac115401-35b0-42357-a37f-409bfb047b60",
+      "name": "Seana Chanson",
+      "company": "Agimba",
+      "email": "schanson1@sogou.com",
+      "title": "Statistician IV",
+      "mobile": "938 512 4648",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219988.png",
+      "groupId": 4
+    },
+    {
+      "id": "37uddTK",
+      "name": "Test name",
+      "photo": "https://cdn-icons-png.flaticon.com/512/219/219985.png",
+      "email": "random@email.com",
+      "mobile": 9876435243,
+      "company": "Rnd Specs Ltd",
+      "title": "Doctor",
+      "groupId": "5"
+    }
+  ],
+  "groups": [
+    {
+      "id": "1",
+      "name": "Colleague"
+    },
+    {
+      "id": "2",
+      "name": "Friend"
+    },
+    {
+      "id": "3",
+      "name": "Family"
+    },
+    {
+      "id": "4",
+      "name": "Service"
+    },
+    {
+      "id": "5",
+      "name": "Community"
+    },
+    {
+      "id": "6",
+      "name": "Social"
+    }
+  ]
+}
