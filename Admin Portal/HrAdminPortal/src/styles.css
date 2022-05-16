@@ -7,11 +7,13 @@ body {
 }
 
 .contact-img {
-    width: 150px;
     border-radius: 50%;
+    max-width: 150px;
+    width: 100%;
 }
 
 .contact-img-big {
-    width: 200px;
     border-radius: 50%;
+    max-width: 200px;
+    width: 100%;
 }
