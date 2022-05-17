@@ -31,10 +31,12 @@
 
 <!-- Error Message  -->
 <div *ngIf="!loading && errorMessage">
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
             <div class="col">
-                <p class="h4 text-danger fw-bold">{{errorMessage}}</p>
+                <div class="alert alert-danger" role="alert">
+                    <p class="h5 fw-bold text-center m-auto">{{errorMessage}}</p>
+                </div>
             </div>
         </div>
     </div>

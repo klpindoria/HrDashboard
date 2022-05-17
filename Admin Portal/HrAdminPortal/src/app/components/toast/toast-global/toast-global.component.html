@@ -1,0 +1,9 @@
+<button class="btn btn-primary m-2" (click)="showStandard()" ngbTooltip="Will disappear in 5s">Standard Toast</button>
+<button class="btn btn-success m-2" (click)="showSuccess()" ngbTooltip="Will disappear in 5s">Success Toast</button>
+<button class="btn btn-danger m-2" (click)="showError()" ngbTooltip="Will disappear in 5s">Error Toast</button>
+
+<ng-template #customTpl>
+    <i>This is</i> a <u>custom</u> template <b>toast message</b>
+</ng-template>
+
+<button class="btn btn-danger m-2" (click)="showCustom(customTpl)" ngbTooltip="Will disappear in 10s">Custom Toast</button>

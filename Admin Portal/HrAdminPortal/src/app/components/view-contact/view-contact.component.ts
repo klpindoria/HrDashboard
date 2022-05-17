@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { IContact } from 'src/app/models/IContact';
 import { IGroup } from 'src/app/models/IGroup';
-import { ContactService } from 'src/app/services/contact.service';
+import { ContactService } from 'src/app/services/contact/contact.service';
 
 @Component({
   selector: 'app-view-contact',

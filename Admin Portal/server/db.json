@@ -121,16 +121,6 @@
       "groupId": 4
     },
     {
-      "id": "ac115401-3213-4457-a37f-409bfb047b60",
-      "name": "Seana Chanson",
-      "company": "Agimba",
-      "email": "schanson1@sogou.com",
-      "title": "Statistician IV",
-      "mobile": "938 512 4648",
-      "photo": "https://cdn-icons-png.flaticon.com/512/219/219988.png",
-      "groupId": 4
-    },
-    {
       "id": "ac198401-35b0-4457-a37f-409bfb047b60",
       "name": "Seana Chanson",
       "company": "Agimba",
@@ -141,34 +131,17 @@
       "groupId": 4
     },
     {
-      "id": "ac115401-35b0-4457-a37f-409b67047b60",
-      "name": "Seana Chanson",
-      "company": "Agimba",
-      "email": "schanson1@sogou.com",
-      "title": "Statistician IV",
-      "mobile": "938 512 4648",
-      "photo": "https://cdn-icons-png.flaticon.com/512/219/219988.png",
-      "groupId": 4
-    },
-    {
-      "id": "ac115401-35b0-42357-a37f-409bfb047b60",
-      "name": "Seana Chanson",
-      "company": "Agimba",
-      "email": "schanson1@sogou.com",
-      "title": "Statistician IV",
-      "mobile": "938 512 4648",
-      "photo": "https://cdn-icons-png.flaticon.com/512/219/219988.png",
-      "groupId": 4
-    },
-    {
       "id": "37uddTK",
-      "name": "Test name",
+      "name": "Raj Kapoor",
       "photo": "https://cdn-icons-png.flaticon.com/512/219/219985.png",
-      "email": "random@email.com",
-      "mobile": 9876435243,
+      "email": "r.kapoor@rndspecs.co.uk",
+      "mobile": "07912345678",
       "company": "Rnd Specs Ltd",
       "title": "Doctor",
-      "groupId": "5"
+      "groupId": "2"
+    },
+    {
+      "id": "I6uTCdI"
     }
   ],
   "groups": [

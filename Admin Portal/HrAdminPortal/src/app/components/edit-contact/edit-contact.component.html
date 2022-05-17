@@ -24,7 +24,7 @@
                     <input type="email" [(ngModel)]="contact.email" [value]="contact.email" name="email" id="email" placeholder="Email" class="form-control" required="true">
                 </div>
                 <div class="mb-2">
-                    <input type="number" [(ngModel)]="contact.mobile" [value]="contact.mobile" name="mobile" id="mobile" placeholder="Mobile" class="form-control" required="true">
+                    <input type="tel" [(ngModel)]="contact.mobile" [value]="contact.mobile" name="mobile" id="mobile" placeholder="Mobile" class="form-control" required="true">
                 </div>
                 <div class="mb-2">
                     <input type="text" [(ngModel)]="contact.company" [value]="contact.company" name="company" id="company" placeholder="Company" class="form-control" required="true">
@@ -34,7 +34,7 @@
                 </div>
                 <div class="mb-2">
                     <select [(ngModel)]="contact.groupId" [value]="contact.groupId" name="groupId" id="select-group" class="form-control" required="true">
-                        <option value="">-- Select a Group --</option>
+                        <option [value]="null" aria-placeholder="true" selected>-- Select a Group --</option>
                         <option *ngFor="let group of groups" [value]="group.id">{{group.name}}</option>
                     </select>
                 </div>
@@ -53,6 +53,3 @@
         </div>
     </div>
 </div>
-
-<pre>{{contact | json}}</pre>
-<pre>{{groups | json}}</pre>

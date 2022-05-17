@@ -1,8 +1,8 @@
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { catchError, Observable, throwError } from 'rxjs';
-import { IContact } from '../models/IContact';
-import { IGroup } from '../models/IGroup';
+import { IContact } from '../../models/IContact';
+import { IGroup } from '../../models/IGroup';
 
 @Injectable({
   providedIn: 'root'

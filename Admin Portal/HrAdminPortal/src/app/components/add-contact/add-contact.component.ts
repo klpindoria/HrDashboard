@@ -2,7 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { IContact } from 'src/app/models/IContact';
 import { IGroup } from 'src/app/models/IGroup';
-import { ContactService } from 'src/app/services/contact.service';
+import { ContactService } from 'src/app/services/contact/contact.service';
+import { ToastService } from 'src/app/services/toast/toast.service';
 
 @Component({
   selector: 'app-add-contact',
@@ -18,7 +19,8 @@ export class AddContactComponent implements OnInit {
 
   constructor(
     private contactService: ContactService, 
-    private router: Router
+    private router: Router,
+    private toasterService: ToastService
   ) { }
 
   ngOnInit(): void {
@@ -35,9 +37,20 @@ export class AddContactComponent implements OnInit {
   public createSubmit() {
     this.contactService.createContact(this.contact).subscribe((data) => {
       this.router.navigate(['/']).then();
+      this.toasterService.show('New contact added successfully', {
+        classname: 'bg-success text-light',
+        delay: 5000,
+        autohide: true,
+        headertext: 'Success'
+      })
     }, (error) => {
       this.errorMessage = error;
       this.router.navigate(['/contacts/add']).then();
+      this.toasterService.show(`Problems adding new contact. Error: ${error}`, {
+        classname: 'bg-danger text-light',
+        autohide: false,
+        headertext: 'Error'
+      })
     })
   }
 

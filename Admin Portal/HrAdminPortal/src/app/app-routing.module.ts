@@ -6,6 +6,7 @@ import { ViewContactComponent } from './components/view-contact/view-contact.com
 import { AddContactComponent } from './components/add-contact/add-contact.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { SpinnerComponent } from './components/spinner/spinner.component';
+import { ToastGlobalComponent } from './components/toast/toast-global/toast-global.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/contacts/admin', pathMatch: 'full'},
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path: 'contacts/edit/:contactId', component: EditContactComponent},
   {path: 'contacts/view/:contactId', component: ViewContactComponent},
   {path: 'contacts/spinner', component: SpinnerComponent},
+  {path: 'contacts/toaster', component: ToastGlobalComponent},
   {path: '**', component: PageNotFoundComponent},
 ];
 
